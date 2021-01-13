@@ -1,0 +1,26 @@
+---
+title: pages.home.title
+---
+
+<section class="hero diagonal">
+  <div class="container">
+    <h2>{% t pages.home.vision %}</h2>
+  </div>
+</section>
+
+<section class="diagonal alternate">
+  <div class="container halves">
+    <div>
+      <h3>{% t pages.home.portfolios.title %}</h3>
+      <p><a href="{{ site.baseurl }}/portfolio/">{% t pages.home.portfolios.all %} &rarr;</a></p>
+    </div>
+    <div>
+      <ul class="image-grid">
+        {% for portfolio in site.portfolios limit: 4 %}
+        <li><a href="{{ site.baseurl }}{{ portfolio.url }}"><img
+          src="{% include relative-src.html src=portfolio.image_path %}"></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
