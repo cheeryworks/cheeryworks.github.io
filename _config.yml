@@ -60,4 +60,4 @@ defaults:
       layout: "default"
 
 languages: [ "en", "zh" ]
-exclude_from_localizations: [ "images", "css", "_posts", "blog", "CNAME" ]
+exclude_from_localizations: [ "css", "CNAME" ]
