@@ -1,7 +1,7 @@
 ---
 name: Soupe UI Components
 title: Soupe UI Components
-subtitle: 
+subtitle: Lightweight UI Components based on Bulma CSS framework
 external_url: https://cheeryworks.org/soupe-ui-components
 image_path: /images/portfolios/soupe-ui-components.png
 ---
