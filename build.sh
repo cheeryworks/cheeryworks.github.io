@@ -1,4 +1,4 @@
 #!/bin/bash
 
-jekyll clean -d docs
-jekyll build -d docs
+bundle exec jekyll clean -d docs
+bundle exec jekyll build -d docs
